@@ -10,3 +10,4 @@ export class CreateCoffeeDto {
     @IsString({each:true})
     readonly flavour:String[];
 }
+ 
